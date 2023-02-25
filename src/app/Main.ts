@@ -24,7 +24,6 @@ export class Main {
         `
     }
     constructor(private ticketInfo : TicketSchema[]) {
-        this.ticketInfo = ticketInfo;
-        console.log('Inside the Main Constructor');
+        // this.ticketInfo = ticketInfo;
     }
 }
